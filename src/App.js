@@ -13,15 +13,15 @@ import { MainContainer  } from "./App.styled";
 
 function App() {
   return (
-    <div>
+   
       <Router>
         <TopBar  />
         <MainContainer>
         <AnimatedRoutes/>
         </MainContainer>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
-    </div>
+
   );
 }
 

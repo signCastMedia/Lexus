@@ -1,8 +1,15 @@
 import React from 'react'
+import {HomeContainer,HomeFooter} from '../pages/Home.styled'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <HomeContainer>
+      {/* <HomeMainContainer>
+
+      </HomeMainContainer> */}
+
+<HomeFooter/>
+    </HomeContainer>
   )
 }
 
